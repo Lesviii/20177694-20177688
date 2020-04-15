@@ -18,7 +18,11 @@
 
 
 
- - QQ图片20200415111611.jpg  - family tree.css：css文件
+   - QQ图片20200415111611.jpg:插入的图片  
+   
+   
+   
+   - family tree.css：css文件
 
 
 
@@ -26,11 +30,7 @@
 
 
 
-   :插入的图片
-
-
-
-- REAMDE.md：目录说明与使用说明
+   - REAMDE.md：目录说明与使用说明
 
 
 
