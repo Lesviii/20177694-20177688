@@ -1,0 +1,114 @@
+body {
+   
+    display: flex;
+    flex-direction: row;
+    font-family:微软雅黑;
+    background:#494ca2;
+    font-size:100%;
+    line-height:1em;color:#d53939;
+    min-width:920px;
+    border-top:10px solid #0c0e0e
+    background-image: url("QQ图片20200415111125.jpg");
+}
+
+
+#tree {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 40%;
+    background-color: #e3e7f1;
+    padding: 20px 20px 20px 200px;
+    box-shadow: inset 4px 0px 10px 3px rgba(0,0,0,0.5);
+    background-image: url("QQ图片20200415111611.jpg");
+    
+}/*生成的树文本*/
+
+
+
+#original_tree {
+    width: 80%;
+    min-height: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border: 0px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+    font-size: 15px;
+    font-family:微软雅黑;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 2px #494ca2;
+    background-image: url("QQ图片20200415111611.jpg");
+}/*输入文本框*/
+
+
+
+
+#textarea {
+    position: absolute;
+    width: 45%;
+    text-align: center;
+    margin-top: 200px;
+    background:#494ca2;
+    outline: 0;
+    border: 1px solid #f95d5d;
+    box-shadow: 0px 0px 10px 0px #f95d5d;
+    
+  
+}
+/*文本输入框*/
+
+
+#input {
+    width: 50%;
+    height: 800px;
+    background-color: #494ca2;
+    min-height: 850px;
+    outline: 0;
+    border: 1px solid #f95d5d;
+    box-shadow: 0px 0px 10px 0px #f95d5d;
+    background-image: url("QQ图片20200415110915.jpg");
+}
+
+
+
+#confirm_button {
+border:1px solid #b42323;
+box-shadow: 0 1px 2px #e99494 inset,0 -1px 0 #954b4b inset,0 -2px 3px #e99494 inset;
+background: -webkit-linear-gradient(top,#d53939,#b92929);
+background: -moz-linear-gradient(top,#d53939,#b92929);
+background: linear-gradient(top,#d53939,#b92929);
+position: absolute;
+left: 10%;
+border-radius: 5px;
+width: 35%;
+height: 10%;
+    
+}
+/*确定按钮框*/ 
+
+#empty_button
+{
+    border:1px solid #b42323;
+box-shadow: 0 1px 2px #e99494 inset,0 -1px 0 #954b4b inset,0 -2px 3px #e99494 inset;
+background: -webkit-linear-gradient(top,#d53939,#b92929);
+background: -moz-linear-gradient(top,#d53939,#b92929);
+background: linear-gradient(top,#d53939,#b92929);
+    left: 54%;
+    position: absolute;
+    width: 35%;
+    height: 10%;
+    border-radius: 5px;
+}
+/*重置按钮*/
+
+
+div[id^="tree_"]
+{
+    width: 20%;
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 60px;
+}
+/*树背后的框*/
